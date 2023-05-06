@@ -1,0 +1,26 @@
+/*
+crie um programa que le seis valores inteiros pares e mostre na tela os valores lidos na ordem inversa
+*/
+#include<stdio.h>
+
+
+main(){
+    int valores[6];
+    int pares[6];
+
+    for(int indice = 0; indice < 6; indice++){
+        printf("Digite um numero par");
+        scanf("%d", &valores[indice]);
+        if(valores[indice] % 2 == 0){
+            pares[indice] = valores[indice];
+        }else{
+            printf("Somente pares");
+            pares[indice] = 0;
+        }
+    }
+    printf("Valores na posicao inversa: ");
+    for(int indice = 5; indice > -1; indice--){
+        printf("%d\n", pares[indice]);
+    }
+
+}
