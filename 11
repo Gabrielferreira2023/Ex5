@@ -1,6 +1,4 @@
-/*
-preencher um vetor com 10 numeros reais, calcular e mostrar quantos numeros negativos e a soma dos numeros positivos
-*/
+
 #include<stdio.h>
 #define TAM 5
 
