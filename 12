@@ -1,6 +1,4 @@
-/*
-ler cinco valores e mostrar todos os valores lidos, o maior valor o menor e a media dos valores
-*/
+
 #include<stdio.h>
 #define TAM 5
 
