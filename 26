@@ -10,9 +10,7 @@ main(){
     for (int i = 0; i < TAM; i++) {
         soma += vetor[i];
     }
-    //media
     media = soma / TAM;
-    //desvio padrão
     for (int i = 0; i < TAM; i++) {
         desvioPadrao += pow(vetor[i]- media, 2);
     }
