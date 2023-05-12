@@ -1,6 +1,4 @@
-/*
-ler nota nota de 15 alunos e armazenar no vetor, calcular e imprimir a media geral
-*/
+
 #include<stdio.h>
 #define TAM 5
 
