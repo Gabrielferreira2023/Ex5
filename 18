@@ -1,12 +1,5 @@
-/*
-    ler um vetor de 10 posicoes e atribuir valor 0 para todos as posições que forem atribuídos valores negativos
-*/
-
 #include<stdio.h>
 #define TAM 5
-
-//precisa-se saber quais são os multiplos de x
-//que pode-se encontrar no vetor
 
 main(){
     int vetor[TAM];
